@@ -53,7 +53,7 @@ export const JobDetail = ({ id, basePath = '/lowongan' }: JobDetailProps) => {
       await applicationsApi.apply({ jobId: job.id });
       setApplySuccess(true);
       setTimeout(() => {
-        router.push('/lamaran-kerja');
+        router.push('/dasbor/lowongan');
       }, 2000);
     } catch (err: any) {
       setErrorMsg(err.response?.data?.message || 'Gagal melamar. Pastikan CV utama telah diatur.');

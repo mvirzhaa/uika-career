@@ -99,7 +99,7 @@ export default function DashboardPage() {
             <div className="card overflow-hidden">
               <div className="p-4 sm:p-6 border-b border-neutral-100 flex items-center justify-between">
                 <h3 className="font-heading font-bold text-base sm:text-lg">Lamaran Terbaru</h3>
-                <Link href="/lamaran-kerja" className="text-xs text-primary-600 font-bold hover:underline">Lihat Semua</Link>
+                <Link href="/dasbor/lowongan" className="text-xs text-primary-600 font-bold hover:underline">Lihat Semua</Link>
               </div>
               <div className="overflow-x-auto scrollbar-hide min-h-[150px]">
                 {isLoading ? (

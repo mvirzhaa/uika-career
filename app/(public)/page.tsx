@@ -78,7 +78,7 @@ export default function HomePage() {
               <div className="w-16 h-16 rounded-2xl bg-accent-100 flex items-center justify-center text-3xl mb-6 group-hover:-translate-y-2 transition-transform duration-300">📄</div>
               <h3 className="font-heading text-xl font-bold text-primary-900 mb-3">Pembuat CV Cerdas</h3>
               <p className="text-neutral-600 mb-6">Rancang Curriculum Vitae berstandar industri ATS-friendly dengan panduan langkah demi langkah.</p>
-              <Link href="/cv" className="text-primary-700 font-bold hover:text-primary-800 flex items-center gap-2">
+              <Link href="/cv-builder" className="text-primary-700 font-bold hover:text-primary-800 flex items-center gap-2">
                 Buat CV Anda <span>→</span>
               </Link>
             </div>
@@ -87,7 +87,7 @@ export default function HomePage() {
               <div className="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center text-3xl mb-6 group-hover:-translate-y-2 transition-transform duration-300">✉️</div>
               <h3 className="font-heading text-xl font-bold text-primary-900 mb-3">Template Surat Lamaran</h3>
               <p className="text-neutral-600 mb-6">Sesuaikan template surat lamaran profesional untuk berbagai peran pekerjaan dan industri.</p>
-              <Link href="/surat-lamaran" className="text-primary-700 font-bold hover:text-primary-800 flex items-center gap-2">
+              <Link href="/template-surat" className="text-primary-700 font-bold hover:text-primary-800 flex items-center gap-2">
                 Eksplorasi Surat <span>→</span>
               </Link>
             </div>

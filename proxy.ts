@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 // Daftar route yang harus diproteksi (butuh login)
-const protectedRoutes = ['/dasbor', '/lamaran-kerja', '/profil'];
+const protectedRoutes = ['/dasbor', '/profil'];
 // Daftar route yang dilarang jika sudah login
 const authRoutes = ['/login', '/register', '/forgot-password'];
 

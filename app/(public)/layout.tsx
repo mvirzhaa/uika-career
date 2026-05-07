@@ -1,4 +1,5 @@
 import { PublicNavbar } from '@/components/layout/PublicNavbar';
+import Link from 'next/link';
 
 export default function PublicLayout({
   children,
@@ -30,9 +31,9 @@ export default function PublicLayout({
             <div>
               <h3 className="text-white font-bold mb-4">Layanan</h3>
               <ul className="space-y-3 text-sm">
-                <li><a href="/lowongan" className="hover:text-accent-400 transition-colors">Lowongan Kerja</a></li>
-                <li><a href="/cv" className="hover:text-accent-400 transition-colors">Pembuat CV</a></li>
-                <li><a href="/surat-lamaran" className="hover:text-accent-400 transition-colors">Surat Lamaran</a></li>
+                <li><Link href="/lowongan" className="hover:text-accent-400 transition-colors">Lowongan Kerja</Link></li>
+                <li><Link href="/cv-builder" className="hover:text-accent-400 transition-colors">Pembuat CV</Link></li>
+                <li><Link href="/template-surat" className="hover:text-accent-400 transition-colors">Surat Lamaran</Link></li>
               </ul>
             </div>
             <div>
